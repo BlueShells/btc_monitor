@@ -1,6 +1,6 @@
 module btc_monitor
 
-go 1.22.1
+go 1.22
 
 require (
 	github.com/btcsuite/btcd v0.24.0
