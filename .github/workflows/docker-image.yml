@@ -6,6 +6,10 @@ on:
       - main
 
 jobs:
+  golangci:
+    permissions:
+      contents: write  # for actions/checkout to fetch code
+      pull-requests: write  # for golangci/golangci-lint-action to fetch pull requests
   build:
     runs-on: ubuntu-latest
 
