@@ -28,4 +28,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: ghcr.io/${{ github.repository_owner }}/btc_block_height_exporter:latest
+        tags: ghcr.io/${{ github.repository_owner }}/btc_monitor:latest
